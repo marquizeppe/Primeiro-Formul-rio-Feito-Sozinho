@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+}	
+
+body {
+	background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);		
+}
+
+h1 {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+p {
+	font-family: cursive;
+}
+
+fieldset {
+	border: solid 0.5px;
+}
+
+
+.campo label {
+	display: block;
+}
+
+h1 {
+	color: blue;	
+}
+
+.botao {
+	border: solid 2px;
+	border-color: blueviolet;
+}
+
+.pedido label {
+	display: block;
+	top: 25px;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="formulario.css" media="">
+		<title>Form Slack</title>
+	</head>
+		
+	 <body>
+		<div>
+			<h1>Pedidos de Ajuda nas Carteiras</h1>
+			<p>Simplifique seus pedidos de ajude e nós do suporte simplificaremos os seus registros de Slack</p>
+			<br>
+		</div>
+
+		<form>
+			<fieldset>
+				<div class="campo">
+					<label for ="nome"><strong>Nome</strong></label> <br>
+						<select id="nome">
+							<option selected disabled value="">Analista</option>
+ 							<option>Gustavo</option>
+							<option>Leticia</option>
+							<option>Amanda</option>
+							<option>Thaís</option>
+						</select>	
+				</div>
+			</fieldset> <br><br>
+
+			<fieldset>
+				<div class="campo">
+					<label for ="escola"><strong>Escola</strong></label> <br>
+						<select id="escola">
+							<option selected disabled value="">Escola</option>
+ 							<option>Escola 1</option>
+							<option>Escola 2</option>
+							<option>Escola 3</option>
+							<option>Escola 4</option>
+						</select>	
+				</div> 
+			</fieldset>
+				<br><br>
+
+			<fieldset>
+				<div>
+					<label for="usuario"><strong>Nome do usuário com problema</strong></label>
+					<input type="text" name="nome" required>
+
+					<label for="usuario-id"><strong>ID usuário</strong></label>
+					<input type="text" name="numero-id" >
+				</div>
+			</fieldset>	
+
+			<div class="campo">
+				<label><strong>Qual a urgência deste pedido?</strong></label><br>
+				<label>
+					<input type="radio" name="sla" value="normal" checked>Nornal (Pode ser feito ao longo do dia)
+				</label>
+				<label>
+					<input type="radio" name="sla" value="importante">Importante (Deve ser atendido em até 1 hora)
+				</label>
+				<label>
+					<input type="radio" name="sla" value="urgente">Urgente (Atendimento deve iniciar no máximo em 15 minutos)
+				</label>
+			</div>
+				<br>
+
+				<fieldset>
+					<div class="pedido">
+						<label for="usuario"><strong>Descreva seu pedido</strong></label>
+						<textarea rows="6" style="width: 26em;" id="comentarios" name="comentarios"></textarea>
+					</div>
+				</fieldset>	
+					<br><br>
+
+				<fieldset>
+					<div>
+						<label><strong>Deseja que suporte faça contato via intercom?</strong></label>
+						<input type="checkbox" name="contato" name="Sim">
+						<label for="checkbox">Sim</label>
+						<input type="checkbox" name="contato" name="Não">
+						<label for="checkbox">Não</label>
+					</div>
+				</fieldset>
+					<br><br>
+
+				<button class="botao" type="submit">Enviar</button>
+
+
+		</form>
+
+	 </body>
+</html>
+
